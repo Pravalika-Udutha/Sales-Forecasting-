@@ -12,7 +12,7 @@ Welcome to the **Sales Forecating for a Store Using Streamlit** project! This is
 CGPA-Predictor-Using-Streamlit/
 │
 ├── app.py              # Main Streamlit application file
-├── store_data.csv       # Sample dataset (CGPA and Package)
+├── store_sales_data.csv       # Sample dataset (CGPA and Package)
 ├── requirements.txt    # List of required Python libraries
 └── README.md           # Project documentation (this file)
 ```
@@ -42,7 +42,7 @@ Open your browser and go to http://localhost:8501 to see the app in action.
 
 ## How It Works
 
-- **Data Loading**: The app loads the `store.csv` dataset using Pandas.  
+- **Data Loading**: The app loads the `store_sales_data.csv` dataset using Pandas.  
 - **Model Training**: A Linear Regression model is trained using Scikit-Learn.  
 - **Prediction**: Based on the user input, it predicts the sales value in lakhs
 - **Output**: The predicted package is displayed on the Streamlit interface.  
